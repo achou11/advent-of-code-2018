@@ -1,4 +1,4 @@
-# Advent of Code 2018 (`Potential for Regret` Edition)
+# [Advent of Code 2018](adventofcode.com) (`Potential for Regret` Edition)
 
 I expect very little of myself with this. Frankly, I'm amazed that I'm even trying, especially since I tend to be pretty bad at tackling these types of problems. But alas, here it is - a repository for my feeble (and most likely inferior) solutions.
 
