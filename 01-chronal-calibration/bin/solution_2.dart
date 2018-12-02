@@ -1,10 +1,15 @@
 import 'dart:io';
 
 void main() {
+  var stopwatch = new Stopwatch()..start();
+
   final file = new File('inputs.txt');
   List<String> lines = file.readAsLinesSync();
 
   print('First duplicate frequency is ${getFirstDuplicateFrequency(lines)}');
+
+  stopwatch.stop();
+  print('Time elapsed (ms): ${stopwatch.elapsedMilliseconds}');
 }
 
 int getFirstDuplicateFrequency(List<String> lines) {
